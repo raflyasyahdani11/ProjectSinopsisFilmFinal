@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_film_horror"
+            android:icon="@drawable/ic_film"
+            android:title="Horror" />
+        <item
+            android:id="@+id/nav_film_comedy"
+            android:icon="@drawable/ic_film"
+            android:title="Comedy" />
+        <item
+            android:id="@+id/nav_film_disney"
+            android:icon="@drawable/ic_film"
+            android:title="disney" />
+        <item
+            android:id="@+id/nav_film_action"
+            android:icon="@drawable/ic_film"
+            android:title="Action" />
+        <item
+            android:id="@+id/nav_film_thiller"
+            android:icon="@drawable/ic_film"
+            android:title="Thiller" />
+    </group>
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/film_navigation"
+    app:startDestination="@id/nav_film_horror">
+
+    <fragment
+        android:id="@+id/nav_film_action"
+        android:name="com.pcr.navigationdrawer.ui.actionFragment"
+        android:label="actionFragment" />
+    <fragment
+        android:id="@+id/nav_film_comedy"
+        android:name="com.pcr.navigationdrawer.ui.comedyFragment"
+        android:label="comedyFragment" />
+    <fragment
+        android:id="@+id/nav_film_horror"
+        android:name="com.pcr.navigationdrawer.ui.horrorFragment"
+        android:label="horrorFragment" />
+    <fragment
+        android:id="@+id/nav_film_disney"
+        android:name="com.pcr.navigationdrawer.ui.disneyFragment"
+        android:label="disneyFragment" />
+    <fragment
+        android:id="@+id/nav_film_thiller"
+        android:name="com.pcr.navigationdrawer.ui.thillerFragment"
+        android:label="thillerFragment" />
+
+</navigation>
